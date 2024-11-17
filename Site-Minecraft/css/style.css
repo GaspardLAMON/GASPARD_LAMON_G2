@@ -1,0 +1,390 @@
+* {
+    font-family: "Arial", sans-serif;
+    font-size: 1.2rem;
+    color: white; 
+    margin: 0%;   
+}
+
+header {
+    background-color: rgb(35, 35, 35);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 5px solid white;
+}
+
+.presentation {
+    display: flex;
+    margin-right: 20%;
+}
+
+.photo_profil {
+    background-color: deepskyblue;
+    transform: scale(0.8);
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.Peverell {
+    font-size: 2rem;
+    margin-left: 15%;
+}
+
+.frog {
+    transform: scale(0.5);
+}
+
+.panier {
+    display: flex;
+    align-items: center;
+}
+
+.lien_panier {
+    transform: scale(1.5);
+    padding-right: 3rem;
+}
+
+.panier_img {
+    transform: scale(0.5);
+    margin-right: 2rem;
+}
+
+.video-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#Minecraft_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.Titre h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: rgb(35,35,35);
+    padding: 20px;
+    font-size: 2rem;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    
+}
+
+.aside {
+
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-top: 15%;
+    height: 100%;
+    width: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: rgb(35,35,35);
+    padding: 3%;
+    font-size: 2rem;
+    border: 5px solid white;
+
+}
+
+.best_sellers {
+
+    transform: scale(0.9);
+    line-height: 2rem;
+    text-align: left;
+    line-height: 300%;
+    
+}
+
+.ligne_items_1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    transform: scale(0.6);
+    margin-top: -10rem;
+    text-align: center;
+}
+
+.ligne_items_2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    margin-top: 20rem;
+    transform: scale(0.6);
+    text-align: center;
+    
+}
+
+.item_1 {
+
+    background-color:rgb(35, 35, 35);
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+
+}
+
+.item_1:hover {
+
+    transform: scale(1.2);
+
+}
+
+.item_1 a {
+    position: relative;
+    z-index: 10;
+}
+
+.item_2 {
+
+    background-color:rgb(35, 35, 35);
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+
+}
+
+.item_2:hover {
+
+    transform: scale(1.2);
+
+}
+
+.item_2 a {
+    position: relative;
+    z-index: 10;
+}
+
+.item_3 {
+
+    background-color:rgb(35, 35, 35);
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+
+}
+
+.item_3:hover {
+
+    transform: scale(1.2);
+
+}
+
+.item_3 a {
+    position: relative;
+    z-index: 10;
+}
+
+.item_4 {
+
+    background-color:rgb(35, 35, 35);
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+
+}
+
+.item_4:hover {
+
+    transform: scale(1.2);
+
+}
+
+.item_4 a {
+    position: relative;
+    z-index: 10;
+}
+
+.item_5 {
+
+    background-color:rgb(35, 35, 35);
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+
+}
+
+.item_5:hover {
+
+    transform: scale(1.2);
+
+}
+
+.item_5 a {
+    position: relative;
+    z-index: 10;
+}
+
+.item_6 {
+
+    background-color:rgb(35, 35, 35);
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+
+}
+
+.item_6:hover {
+
+    transform: scale(1.2);
+
+}
+
+.item_6 a {
+    position: relative;
+    z-index: 10;
+}
+
+.item_7 {
+
+    background-color:rgb(35, 35, 35);
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+
+}
+
+.item_7:hover {
+
+    transform: scale(1.2);
+
+}
+
+.item_7 a {
+    position: relative;
+    z-index: 10;
+}
+
+.item_8 {
+
+    background-color:rgb(35, 35, 35);
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+
+}
+
+.item_8:hover {
+
+    transform: scale(1.2);
+
+}
+
+.item_8 a {
+    position: relative;
+    z-index: 10;
+}
+
+.footer {
+
+    background-color: rgb(35, 35, 35);
+    border-top: 5px solid white;
+    transition: transform 0.3s ease;
+}
+
+.avis {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+
+.Obama {
+
+    transform: scale(0.8);
+    text-align: center;
+
+}
+
+.MrBeast {
+
+    transform: scale(0.8);
+    text-align: center;
+    margin-right: 7rem;
+
+}
+
+.Pere_Castor {
+
+    transform: scale(0.8);
+    text-align: center;
+
+}
+
+.contact {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+
+}
+
+
+.twitter {
+
+    transform: scale(0.8);
+}
+
+.discord {
+
+    transform: scale(1.5);
+}
+
+.Warning {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.7);
+    text-align: center;
+    background-color: rgb(255, 115, 115);
+    border: 3px solid white;
+    margin-top: 30rem;
+    transition: transform 0.3s ease;
+
+}
+
+.Warning:hover {
+
+   transform: scale(1);
+}
+
+.gras {
+
+    font-weight: bold;
+}
+
+.model {
+
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    border-radius: 20%;
+
+}
